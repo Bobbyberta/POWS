@@ -10,4 +10,4 @@ To provide an accessible resource for teachers.
 #What is POWS Learning?
 POWS Learning is 4 key elements that make up a great lesson: Pictures, Objects, Words and Stories.
 
-See the website in action here: http://wwww.powslearning.co.uk
+See the website in action here: http://powslearning.co.uk/
