@@ -249,7 +249,7 @@ footer p {
     border-radius: 1em;
     background-color: #FDF733;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
 
     color: #5E44D5;
 }
@@ -258,7 +258,7 @@ footer p {
     border-radius: 1em;
     background-color: #76F135;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
 
     color: #5E44D5;
 }
@@ -267,7 +267,7 @@ footer p {
     border-radius: 1em;
     background-color: #6CF8FC;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
 
     color: #5E44D5;
 }
@@ -276,9 +276,13 @@ footer p {
     border-radius: 1em;
     background-color: #E4A05C;
     padding: 1em;
-    margin: 1em;
+    margin: 2em;
 
     color: #ffffff;
+}
+
+.inner {
+    margin: 1em;
 }
 
 .top {
@@ -307,6 +311,31 @@ iframe {
     text-align: center;
 }
 
+.image {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+.portrait {
+    width: 20%;
+    padding: 1em;
+    float: left;
+    height:100%;
+}
+
+.person p  {
+    text-align: left;
+    width: 95%;
+
+}
+
+.frame {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
 
 @media screen and (min-width: 750px) {
 
@@ -332,8 +361,8 @@ iframe {
         border-radius: 1em;
         background-color: #FDF733;
         padding: 1em;
-        margin: 1em;
-        width: initial;
+        margin: 2em auto 2em auto; /*Top Right Bottom Left*/
+        width: 80%;
 
         color: #5E44D5;
     }
@@ -342,8 +371,8 @@ iframe {
         border-radius: 1em;
         background-color: #76F135;
         padding: 1em;
-        margin: 1em;
-        width: initial;
+        margin: 2em auto 2em auto; /*Top Right Bottom Left*/
+        width: 80%;
 
         color: #5E44D5;
     }
@@ -352,8 +381,8 @@ iframe {
         border-radius: 1em;
         background-color: #6CF8FC;
         padding: 1em;
-        margin: 1em;
-        width: initial;
+        margin: 2em auto 2em auto; /*Top Right Bottom Left*/
+        width: 80%;
 
         color: #5E44D5;
     }
@@ -362,10 +391,16 @@ iframe {
         border-radius: 1em;
         background-color: #E4A05C;
         padding: 1em;
-        margin: 1em;
-        width: initial;
+        margin: 2em auto 2em auto; /*Top Right Bottom Left*/
+        width: 80%;
 
         color: #ffffff;
+    }
+
+    .inner {
+        padding: 1em;
+        margin: 1em;
+        width: initial;
     }
 
     .top {
@@ -389,7 +424,6 @@ iframe {
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
         width: 70%;
-
     }
 
 
@@ -406,7 +440,7 @@ iframe {
         background-color: #FDF733;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 70%;
 
         color: #5E44D5;
     }
@@ -416,7 +450,7 @@ iframe {
         background-color: #76F135;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 70%;
 
         color: #5E44D5;
     }
@@ -426,7 +460,7 @@ iframe {
         background-color: #6CF8FC;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 70%;
 
         color: #5E44D5;
     }
@@ -436,9 +470,13 @@ iframe {
         background-color: #E4A05C;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 70%;
 
         color: #ffffff;
+    }
+
+    .inner {
+        width: initial;
     }
 
     .top {
@@ -451,6 +489,10 @@ iframe {
 
     iframe {
         display: inline;
+    }
+
+    .portrait {
+        width: 15%;
     }
 
 }
@@ -480,7 +522,7 @@ iframe {
         background-color: #FDF733;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 60%;
 
         color: #5E44D5;
     }
@@ -490,7 +532,7 @@ iframe {
         background-color: #76F135;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 60%;
 
         color: #5E44D5;
     }
@@ -500,7 +542,7 @@ iframe {
         background-color: #6CF8FC;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 60%;
 
         color: #5E44D5;
     }
@@ -510,9 +552,13 @@ iframe {
         background-color: #E4A05C;
         padding: 1em;
         margin: 2em auto 2em auto; /*Top Right Bottom Left*/
-        width: initial;
+        width: 60%;
 
         color: #ffffff;
+    }
+
+    .inner {
+        width: initial;
     }
 
     .top {
@@ -526,7 +572,13 @@ iframe {
     iframe {
         display: inline;
     }
+
+    .portrait {
+        width: 15%;
+    }
+
 }
+
 
 
 
